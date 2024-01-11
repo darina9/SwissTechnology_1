@@ -28,10 +28,10 @@ document.addEventListener('DOMContentLoaded', function () {
   function moveToPrev() {
     currentIndex = (currentIndex - 1 + 3) % 3;
     updateCarousel();
-  }});
+  };
 
   prevButton.addEventListener('click', moveToPrev);
-  nextButton.addEventListener('click', moveToNext);
+  nextButton.addEventListener('click', moveToNext)});
 
   function validateForm() {
     const inputs = document.querySelectorAll('.modal-form input');
